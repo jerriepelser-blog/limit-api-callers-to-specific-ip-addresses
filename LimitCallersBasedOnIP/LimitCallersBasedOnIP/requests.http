@@ -1,0 +1,5 @@
+@baseUrl = https://localhost:7015
+
+### GET request to example server
+GET {{baseUrl}}/weatherforecast
+X-Forwarded-For: 8.8.4.0
